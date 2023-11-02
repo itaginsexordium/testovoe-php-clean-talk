@@ -75,7 +75,7 @@ RUN ln -fs /usr/share/zoneinfo/Asia/Bishkek /etc/localtime
 
 
 RUN rm -rf /var/cache/apk/*
-RUN usermod -u 1000 www-data
+# RUN usermod -u 1000 www-data
 
 WORKDIR /var/www/html
 VOLUME /var/www/html
